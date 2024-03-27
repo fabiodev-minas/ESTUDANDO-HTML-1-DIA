@@ -1,0 +1,46 @@
+
+
+
+/* color vai dar cor pra fonte
+o BACKGROUND: BLACK vai ser o fundo*/
+
+
+/*UNIDADE DE MEDIDAS
+
+
+--> ABSOLUTAS
+PX(PIXEIS)
+in(inches/polegadas)
+cm/mm (centimetro/ milimetro)
+
+-->RELATIVAS
+% calcula o tamanho relativo ao elemento pa */
+*{
+    background: black;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size:64px;
+    letter-spacing: 5px;
+   
+        text-transform: capitalize; /* Deixa a primeira letra maiúscula pode deixar todas minuscula ou todas maiúscula também*/
+        text-shadow: 5px 10px 20px rgb(239, 7, 7); /*definir uma sombra para a letras*/
+      
+      
+
+}
+
+p{
+    color: rgb(250, 20,0); /*definir uma cor*/
+    font-size:30px; /*definir o tamanho da fonte*/
+    font-family: "Bebas Neue", sans-serif; /*nome da fonte pegada do google fonts*/
+        font-weight: 500; /*tamanho da fonte*/
+        font-style: italic; /* subrinha e deitar a linha*/
+        line-height: 30px; /*separa uma linha da outra*/
+        letter-spacing: 10px; /* Da esoaço entre as letras*/
+      
+        text-transform: lowercase;
+        text-decoration: underline ; /*colocar uma linha debaixo da frase*/
+      
+}

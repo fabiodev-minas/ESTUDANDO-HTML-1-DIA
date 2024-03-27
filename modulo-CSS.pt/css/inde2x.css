@@ -1,0 +1,23 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background: rgba(153, 3, 28, 0.95);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+
+    margin: 10px 50px 30px 5px;
+    /*      12h  15h   18h  21h 
+    esse atalho do relógio pode ser usado com o padding ou com o margin */
+    padding: 10px    50px     30px ;
+    /*       12h  15h e 21h    18h
+    Com tries valores o css entende que voce quer aplicar */
+    
+    margin: 10px 50px ;
+    /* E quando tiver apenas 2 o css vai aplicar para os dois lados de cima
+    e os dois lados de baixo/*
+     
+
+ 
+}

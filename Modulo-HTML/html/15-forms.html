@@ -1,0 +1,34 @@
+<!--FORMS
+    Capturar dados de entrada
+    input -> entrada
+    
+    
+    Action-> define para qual url sera enviado os dados, vazio para mesma url
+    Method
+    
+        -GET
+        -POST
+-->
+<form action="" method="get" enctype="multipart/form-data"> 
+    <h1>Digite seu Endereço</h1>
+    <label for="">
+        Rua:
+        <input type="" name="rua" autocomplete="street-address">
+    </label>
+    
+    <label for="">
+        Numero
+        <input type="text" name="rua" autocomplete="on">
+    </label>
+
+    <label for="">
+      Email
+        <input type="email" name="Email" autocomplete="Email">
+    </label>
+    <label for="">
+      Foto
+          <input type="file" name="arquivo" >
+      </label>
+<button type="submit">Enviar dados</button>
+<button type="reset">Reset</button>
+</form>

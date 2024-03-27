@@ -1,0 +1,54 @@
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: cadetblue;
+
+}
+
+a:hover{
+    color: rgb(235, 13, 13);
+}
+
+p:hover{
+    color:blue;
+}
+button:hover{
+    color: chocolate;
+
+}
+button{
+    background: red;
+    border:10px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+input:disabled{
+    width: 100px;
+    height: 100px;
+
+}
+ .segundo:focus{
+    border: 1px solid red;
+    outline: none;
+ }
+
+ .terceiro:read-only{
+    border: 1px solid chocolate;
+    outline: none;
+
+ }
+ .container{
+    height: 50px;
+    width: 100px;
+    background: chartreuse;
+ }
+
+ .container:empty{
+    background: blue;
+
+ }
