@@ -13,7 +13,7 @@ color: rgb(181, 15, 162);
 
 }
 p{
-    color: blue;
+    color: rgba(0, 0, 255, 0.833);
 }
 p::first-letter{
     color: crimson;
